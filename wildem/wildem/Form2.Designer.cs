@@ -39,9 +39,7 @@
             this.kijelentkezésToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.profilomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fooldal = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
-            this.fooldal.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -82,13 +80,13 @@
             // hirdetésKözzétételeToolStripMenuItem
             // 
             this.hirdetésKözzétételeToolStripMenuItem.Name = "hirdetésKözzétételeToolStripMenuItem";
-            this.hirdetésKözzétételeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.hirdetésKözzétételeToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.hirdetésKözzétételeToolStripMenuItem.Text = "Keresés";
             // 
             // készítésToolStripMenuItem
             // 
             this.készítésToolStripMenuItem.Name = "készítésToolStripMenuItem";
-            this.készítésToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.készítésToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.készítésToolStripMenuItem.Text = "Készítés";
             // 
             // bejelentkezésToolStripMenuItem
@@ -106,7 +104,7 @@
             // kijelentkezésToolStripMenuItem
             // 
             this.kijelentkezésToolStripMenuItem.Name = "kijelentkezésToolStripMenuItem";
-            this.kijelentkezésToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.kijelentkezésToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.kijelentkezésToolStripMenuItem.Text = "Kijelentkezés";
             this.kijelentkezésToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.kijelentkezésToolStripMenuItem.Click += new System.EventHandler(this.kijelentkezésToolStripMenuItem_Click);
@@ -114,28 +112,17 @@
             // profilomToolStripMenuItem
             // 
             this.profilomToolStripMenuItem.Name = "profilomToolStripMenuItem";
-            this.profilomToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.profilomToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.profilomToolStripMenuItem.Text = "Profilom";
             // 
             // fooldal
             // 
             this.fooldal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.fooldal.Controls.Add(this.button1);
             this.fooldal.Location = new System.Drawing.Point(12, 27);
             this.fooldal.Name = "fooldal";
             this.fooldal.Size = new System.Drawing.Size(1401, 680);
             this.fooldal.TabIndex = 1;
             this.fooldal.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(568, 203);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form2
             // 
@@ -151,7 +138,6 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.fooldal.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -169,6 +155,5 @@
         private System.Windows.Forms.ToolStripMenuItem kijelentkezésToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem profilomToolStripMenuItem;
         private System.Windows.Forms.GroupBox fooldal;
-        private System.Windows.Forms.Button button1;
     }
 }

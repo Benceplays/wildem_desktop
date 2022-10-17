@@ -15,6 +15,12 @@ namespace wildem
         public Form2()
         {
             InitializeComponent();
+            timer1.Start();
+            if (timer1.Interval == 10000)
+            {
+                timer1.Stop();
+                pictureBox1.Visible = false;
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
