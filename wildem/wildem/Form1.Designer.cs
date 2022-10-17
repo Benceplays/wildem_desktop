@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
-            this.username = new System.Windows.Forms.TextBox();
+            this.usernamebe = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.password = new System.Windows.Forms.TextBox();
+            this.passwordbe = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -49,12 +49,12 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Username";
             // 
-            // username
+            // usernamebe
             // 
-            this.username.Location = new System.Drawing.Point(324, 249);
-            this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(163, 20);
-            this.username.TabIndex = 1;
+            this.usernamebe.Location = new System.Drawing.Point(324, 249);
+            this.usernamebe.Name = "usernamebe";
+            this.usernamebe.Size = new System.Drawing.Size(163, 20);
+            this.usernamebe.TabIndex = 1;
             // 
             // label3
             // 
@@ -67,15 +67,16 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Password";
             // 
-            // password
+            // passwordbe
             // 
-            this.password.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.password.Location = new System.Drawing.Point(324, 300);
-            this.password.Name = "password";
-            this.password.PasswordChar = '*';
-            this.password.Size = new System.Drawing.Size(163, 20);
-            this.password.TabIndex = 5;
-            this.password.UseSystemPasswordChar = true;
+            this.passwordbe.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.passwordbe.Location = new System.Drawing.Point(324, 300);
+            this.passwordbe.Name = "passwordbe";
+            this.passwordbe.PasswordChar = '*';
+            this.passwordbe.Size = new System.Drawing.Size(163, 20);
+            this.passwordbe.TabIndex = 5;
+            this.passwordbe.UseSystemPasswordChar = true;
+            this.passwordbe.TextChanged += new System.EventHandler(this.password_TextChanged);
             // 
             // button1
             // 
@@ -118,9 +119,9 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.password);
+            this.Controls.Add(this.passwordbe);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.username);
+            this.Controls.Add(this.usernamebe);
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -136,9 +137,9 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox username;
+        private System.Windows.Forms.TextBox usernamebe;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox password;
+        private System.Windows.Forms.TextBox passwordbe;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
