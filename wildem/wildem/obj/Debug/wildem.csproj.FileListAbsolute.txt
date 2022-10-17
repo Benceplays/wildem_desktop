@@ -43,3 +43,4 @@ C:\Users\Bence\Documents\GitHub\wildem_desktop\wildem\wildem\bin\Debug\System.Me
 C:\Users\Bence\Documents\GitHub\wildem_desktop\wildem\wildem\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Bence\Documents\GitHub\wildem_desktop\wildem\wildem\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Bence\Documents\GitHub\wildem_desktop\wildem\wildem\obj\Debug\wildem.csproj.CopyComplete
+C:\Users\Bence\Documents\GitHub\wildem_desktop\wildem\wildem\obj\Debug\wildem.Form2.resources

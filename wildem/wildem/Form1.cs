@@ -45,6 +45,10 @@ namespace wildem
             if (usernametext == Convert.ToString(reader["nev"]) && passwordtext == Convert.ToString(reader["jelszo"]))
             {
                 Console.WriteLine("Sikeres bejelentkezes.");
+                Form2 f2 = new Form2();
+                this.Hide();
+                f2.ShowDialog();
+                this.Close();
             }
         }
 
