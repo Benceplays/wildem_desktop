@@ -9,3 +9,14 @@ C:\Users\Bence\Documents\GitHub\wildem_desktop\wildem\wildem\obj\Debug\wildem.cs
 C:\Users\Bence\Documents\GitHub\wildem_desktop\wildem\wildem\obj\Debug\wildem.csproj.CoreCompileInputs.cache
 C:\Users\Bence\Documents\GitHub\wildem_desktop\wildem\wildem\obj\Debug\wildem.exe
 C:\Users\Bence\Documents\GitHub\wildem_desktop\wildem\wildem\obj\Debug\wildem.pdb
+C:\Users\nemeth.csaba_csany-z\Documents\GitHub\wildem_desktop\wildem\wildem\bin\Debug\wildem.exe.config
+C:\Users\nemeth.csaba_csany-z\Documents\GitHub\wildem_desktop\wildem\wildem\bin\Debug\wildem.exe
+C:\Users\nemeth.csaba_csany-z\Documents\GitHub\wildem_desktop\wildem\wildem\bin\Debug\wildem.pdb
+C:\Users\nemeth.csaba_csany-z\Documents\GitHub\wildem_desktop\wildem\wildem\obj\Debug\wildem.csproj.AssemblyReference.cache
+C:\Users\nemeth.csaba_csany-z\Documents\GitHub\wildem_desktop\wildem\wildem\obj\Debug\wildem.csproj.SuggestedBindingRedirects.cache
+C:\Users\nemeth.csaba_csany-z\Documents\GitHub\wildem_desktop\wildem\wildem\obj\Debug\wildem.Form1.resources
+C:\Users\nemeth.csaba_csany-z\Documents\GitHub\wildem_desktop\wildem\wildem\obj\Debug\wildem.Properties.Resources.resources
+C:\Users\nemeth.csaba_csany-z\Documents\GitHub\wildem_desktop\wildem\wildem\obj\Debug\wildem.csproj.GenerateResource.cache
+C:\Users\nemeth.csaba_csany-z\Documents\GitHub\wildem_desktop\wildem\wildem\obj\Debug\wildem.csproj.CoreCompileInputs.cache
+C:\Users\nemeth.csaba_csany-z\Documents\GitHub\wildem_desktop\wildem\wildem\obj\Debug\wildem.exe
+C:\Users\nemeth.csaba_csany-z\Documents\GitHub\wildem_desktop\wildem\wildem\obj\Debug\wildem.pdb
