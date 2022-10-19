@@ -15,45 +15,23 @@ namespace wildem
         public Form2()
         {
             InitializeComponent();
-            timer1.Start();
-            if (timer1.Interval == 10000)
-            {
-                timer1.Stop();
-                pictureBox1.Visible = false;
-            }
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void domainUpDown1_SelectedItemChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void bejelentkezésToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void kijelentkezésToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form1 f1 = new Form1();
-            this.Hide();
-            f1.ShowDialog();
-            this.Close();
+            librarypanel.Visible = true;
+            storepanel.Visible = false;  
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            fooldal.Visible = false;
+            storepanel.Visible = true;
+            librarypanel.Visible = false;
+        }
+
+        private void librarypanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
