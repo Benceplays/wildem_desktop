@@ -50,6 +50,10 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
+            this.accountpanel = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.storepanel.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -59,6 +63,8 @@
             this.librarypanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.accountpanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -125,12 +131,13 @@
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Location = new System.Drawing.Point(215, 98);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(863, 436);
+            this.panel2.Size = new System.Drawing.Size(802, 149);
             this.panel2.TabIndex = 0;
             // 
             // richTextBox1
             // 
             this.richTextBox1.BackColor = System.Drawing.SystemColors.InfoText;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.richTextBox1.ForeColor = System.Drawing.Color.White;
             this.richTextBox1.Location = new System.Drawing.Point(246, 21);
@@ -177,6 +184,7 @@
             // richTextBox2
             // 
             this.richTextBox2.BackColor = System.Drawing.SystemColors.InfoText;
+            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.richTextBox2.ForeColor = System.Drawing.Color.White;
             this.richTextBox2.Location = new System.Drawing.Point(246, 21);
@@ -232,9 +240,11 @@
             this.button6.TabIndex = 5;
             this.button6.Text = "Account";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // librarypanel
             // 
+            this.librarypanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.librarypanel.Controls.Add(this.button8);
             this.librarypanel.Controls.Add(this.button7);
             this.librarypanel.Controls.Add(this.pictureBox5);
@@ -261,7 +271,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(101, 82);
+            this.label2.Location = new System.Drawing.Point(102, 62);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(192, 39);
             this.label2.TabIndex = 1;
@@ -298,19 +308,64 @@
             this.button8.Text = "Pirate Invasion ➔";
             this.button8.UseVisualStyleBackColor = false;
             // 
+            // accountpanel
+            // 
+            this.accountpanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.accountpanel.Controls.Add(this.button9);
+            this.accountpanel.Controls.Add(this.label3);
+            this.accountpanel.Controls.Add(this.pictureBox6);
+            this.accountpanel.Location = new System.Drawing.Point(208, 9);
+            this.accountpanel.Name = "accountpanel";
+            this.accountpanel.Size = new System.Drawing.Size(1229, 685);
+            this.accountpanel.TabIndex = 5;
+            this.accountpanel.Visible = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
+            this.pictureBox6.Location = new System.Drawing.Point(179, 89);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(150, 150);
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Rockwell", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(380, 107);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(86, 30);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Booby";
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.Black;
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Location = new System.Drawing.Point(1124, 8);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(100, 30);
+            this.button9.TabIndex = 2;
+            this.button9.Text = "Sign out";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1449, 709);
-            this.Controls.Add(this.librarypanel);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.storepanel);
+            this.Controls.Add(this.accountpanel);
+            this.Controls.Add(this.librarypanel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -326,6 +381,9 @@
             this.librarypanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.accountpanel.ResumeLayout(false);
+            this.accountpanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -353,5 +411,9 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Panel accountpanel;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pictureBox6;
     }
 }

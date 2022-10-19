@@ -20,18 +20,35 @@ namespace wildem
         private void button2_Click(object sender, EventArgs e)
         {
             librarypanel.Visible = true;
-            storepanel.Visible = false;  
+            storepanel.Visible = false;
+            accountpanel.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             storepanel.Visible = true;
             librarypanel.Visible = false;
+            accountpanel.Visible = false;
         }
 
         private void librarypanel_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            this.Hide();
+            f1.ShowDialog();
+            this.Close();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            accountpanel.Visible = true;
+            storepanel.Visible = false;
+            librarypanel.Visible = false;
         }
     }
 }
