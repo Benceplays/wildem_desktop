@@ -9,6 +9,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace wildem
 {
@@ -26,23 +27,22 @@ namespace wildem
 
         public void button1_Click(object sender, EventArgs e)
         {
-            string server = "localhost";
-            string database = "adatok";
-            string username = "root";
-            string password = "";
+            string usernametext = usernamebe.Text;
+            string passwordtext = passwordbe.Text;
+            string server = "87.229.85.107";
+            string database = "wildem_reglog";
+            string usernamee = "wpuser";
+            string passwordd = "password";
             string constring = "SERVER=" + server + ";" + "DATABASE=" + database + ";" +
-                "UID=" + username + ";" + "PASSWORD=" + password + ";";
+                "UID=" + usernamee + ";" + "PASSWORD=" + passwordd + ";";
             MySqlConnection conn = new MySqlConnection(constring);
             conn.Open();
-            string query = "SELECT * FROM bejelentkezes";
+            string query = $"SELECT * FROM reglog WHERE username='{usernametext}'";
             MySqlCommand cmd = new MySqlCommand(query, conn);
             MySqlDataReader reader = cmd.ExecuteReader();
             reader.Read();
 
-            string usernametext = usernamebe.Text;
-            string passwordtext = passwordbe.Text;
-
-            if (usernametext == Convert.ToString(reader["nev"]) && passwordtext == Convert.ToString(reader["jelszo"]))
+            if (passwordtext == Convert.ToString(reader["password"]))
             {
                 Console.WriteLine("Sikeres bejelentkezes.");
                 Form2 f2 = new Form2();

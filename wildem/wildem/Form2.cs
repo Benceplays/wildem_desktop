@@ -22,6 +22,8 @@ namespace wildem
             librarypanel.Visible = true;
             storepanel.Visible = false;
             accountpanel.Visible = false;
+            settingspanel.Visible = false;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,6 +31,8 @@ namespace wildem
             storepanel.Visible = true;
             librarypanel.Visible = false;
             accountpanel.Visible = false;
+            settingspanel.Visible = false;
+
         }
 
         private void librarypanel_Paint(object sender, PaintEventArgs e)
@@ -49,6 +53,16 @@ namespace wildem
             accountpanel.Visible = true;
             storepanel.Visible = false;
             librarypanel.Visible = false;
+            settingspanel.Visible = false;
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            accountpanel.Visible = false;
+            storepanel.Visible = false;
+            librarypanel.Visible = false;
+            settingspanel.Visible = true;
         }
     }
 }
